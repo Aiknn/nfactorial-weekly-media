@@ -5,11 +5,107 @@ h1{
     font-weight: 500;
     font-size: 48px;
     padding-top: 100px;
-    padding-bottom: 64px;
+    padding-bottom: 42px;
 }
 
 .author{
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 500;
+}
+
+.author-light{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.post{
+    margin-bottom: 42px;
+    margin-top: 42px;
+}
+
+.topic{
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 51px;
+    padding-bottom: 24px;
+}
+
+.text{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    /* padding-right: 70px; */
+    width: 90%;
+}
+
+.button{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #081E34;
+    background-color: linear-gradient(0deg, rgba(8, 30, 52, 0.12), rgba(8, 30, 52, 0.12)), #FFFBFE;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+.extra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.extra-text, .extra-boxes{
+    display: flex;
+    align-items: center;
+}
+
+.centered{
+    padding: 0;
+    margin: 0;
+}
+
+.empty-box{
+    width: 24px;
+    height: 24px;
+    background-color: #E1E0E6;
+    margin-left: 14px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.footer-info{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #081E34;
+    opacity: 0.5;
+    text-align: end;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.footer-extra{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #081E34;
+    text-align: end;
+}
+
+footer{
+    margin-top: 300px;
 }
