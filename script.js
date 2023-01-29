@@ -28,7 +28,7 @@ function createPost(item){
                     <span class="author-light">7 july</span>
                 </div>
                 <p class="topic"> </p>
-                <p class="text"> </p>
+                <p class="text"> <a href="./post.html"><b>read more...</b></a></p>
             </div>
             <div class="col-4">
                 <img alt="post_image" src="./images/8.jpg" class="rounded mx-auto d-block img-fluid">
@@ -54,6 +54,9 @@ function createPost(item){
     let newPost = post.replace('<p class="topic">', `<p class="topic">${item.title}`);
     newPost = newPost.replace('<p class="text">', `<p class="text">${item.body}`);
     newPost = newPost.replace('<img alt="post_image" src="./images/8.jpg"', `<img alt="post_image" src="./images/${item.id}.jpg"`)
-
+    newPost = newPost.replace('<a href="./post.html">', `<a href="./post.html?id=${item.id}">`)
     posts.innerHTML += newPost;
 };
+
+
+

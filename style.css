@@ -109,3 +109,7 @@ hr {
 footer{
     margin-top: 300px;
 }
+
+.no-line{
+    text-decoration: none;
+}
